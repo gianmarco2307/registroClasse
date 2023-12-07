@@ -1,3 +1,27 @@
 header {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  padding: 2px;
+  border: 1px black solid;
+  border-radius: 0.5em;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  cursor: pointer;
+}
+
+.toClick {
     text-align: center;
+}
+
+td, th {
+    width: 10em;
+}
+
+.toClick, .toClickNoPointer {
+    width: 5em;
 }
