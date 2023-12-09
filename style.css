@@ -18,10 +18,39 @@ table {
     text-align: center;
 }
 
-td, th {
-    width: 10em;
+td, th, .td {
+    width: 17.5em;
 }
 
 .toClick, .toClickNoPointer {
-    width: 5em;
+    width: 7em;
+}
+
+aside {
+    float: left;
+    width: 15em;
+}
+
+#addPerson {
+    width: 4em;
+    height: 4em;
+    border: 1px black solid;
+    border-radius: 0.5em;
+    margin: auto;
+}
+
+#addPerson span{
+    margin: 32%;
+}
+
+#form {
+    width: 12em;
+    text-align: center;
+    margin: 2em auto auto auto;
+}
+
+.formElement {
+    width: 90%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
